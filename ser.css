@@ -1,0 +1,48 @@
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/631711338296639498/1014560304044199936/20211222232332_1-modified.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  font-family:標楷體;
+  text-align : left;
+  font-size: 30px;
+  color:#ee82ee;
+  text-shadow: 0.1em 0.1em 0.1em black;
+  }
+  h4{
+  font-family:標楷體;
+  font-size: 40px;
+  color:#afeeee;
+  text-shadow: 0.1em 0.1em 0.1em black ;
+  position: absolute;
+  top: 10px;
+  }
+  .meg
+  {
+    background-image: url(https://cdn.discordapp.com/attachments/631711338296639498/1014549949905641582/O1CN01Z6HrGg2E6okn9L0VR_1628888696_1.jpg);
+    position: relative;
+    background-color: #87cefa;
+    width:700px;
+    height:250px;
+  }
+  .image
+  {
+    position: absolute;
+    background-color: #87cefa;
+    left: 300px;
+    top: 50px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px;
+  }
+  .image2
+  {
+    position: relative;
+    width:800px;
+    height:800px;
+    bottom: 1px;
+  }
