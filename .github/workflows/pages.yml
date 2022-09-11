@@ -1,0 +1,41 @@
+<html>
+<head lang="en">
+  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="ser.css">
+</head>
+<style>
+    .img{
+        width: 80px;
+    }
+    .h11{
+        font-family:標楷體;
+        text-align : left;
+        font-size: 50px;
+        color:#afeeee;
+        text-shadow: 0.1em 0.1em 0.1em black;
+    }
+    .h12{
+        font-family:標楷體;
+        text-align : left;
+        font-size: 28px;
+        color:#87cefa;
+        text-shadow: 0.1em 0.1em 0.1em black;
+    }
+    .h15{
+        font-family:標楷體;
+        text-align : left;
+        font-size: 20px;
+        color:yellow;
+        text-shadow: 0.1em 0.1em 0.1em black;
+    }
+</style>
+<script>
+</script>
+<body>
+ <button tpye="buttom" id="d3">The 抽</button><br>
+<script src= "slot.js"></script>
+<label class="h11">倒垃圾順序:</label><br>
+<input type="text" id="t1" class="img"><input type="text" id="t1" class="img"><input type="text" id="t1" class="img"><input type="text" id="t1" class="img"><label class="h15">☙---輸入名字</label><br>
+<label class="h12" id="d4"></label>
