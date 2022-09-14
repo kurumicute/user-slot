@@ -1,0 +1,30 @@
+<head>
+
+</head>
+    <body>
+		<img src="im1.gif" id = "i">
+		<span id="close" onmousedown="f()">
+			X
+		</span>
+        <script>
+			var img = document.getElementById("i");
+			img.style.marginLeft="765px";	
+			img.style.marginTop = "50px"
+			
+			var close = document.getElementById("close");
+			close.style.color="red";
+			close.style.float="left";
+			close.style.position="relative";
+			close.style.left="1290px";
+			close.style.top="55px";
+			close.style.cursor="pointer";
+			
+			setTimeout(function(){
+				img.style.visibility= "hidden";
+			},3000)
+			function f(){
+				img.style.visibility="hidden"
+				close.style.visibility="hidden"
+			}
+		</script>
+	</body>
