@@ -13,8 +13,10 @@ document.getElementById("d3").onclick = function(){
     var b = /^[1-9()]+$/.test(name.value);
     var c = /^[1-9a-zA-Z()]+$/.test(name.value);
     var d = /^[\u4E00-\u9FA5]+$/.test(name.value);
+    var e = /^[\u4E00-\u9FA51-9()]+$/.test(name.value);
+    var f = /^[\u4E00-\u9FA5a-zA-Z()]+$/.test(name.value);
+    var g = /^[\u4E00-\u9FA51-9a-zA-Z()]+$/.test(name.value);
     fisherYatesShuffle(user);
-    document.getElementById("d4").innerHTML = user;
     if (name.value.length == 0){
         document.getElementById("d4").innerHTML ="沒有輸入名字";
     }
@@ -29,6 +31,15 @@ document.getElementById("d3").onclick = function(){
     }
     else if (d == true){
         document.getElementById("d4").innerHTML = user;
+    }
+    else if (e == true){
+        document.getElementById("d4").innerHTML = "ok，數字人";
+    }
+    else if (f == true){
+        document.getElementById("d4").innerHTML = "英文和中文組幾來的名子沒有比較帥";
+    }
+    else if (g == true){
+        document.getElementById("d4").innerHTML = "我全都要?";
     }
     else {
         document.getElementById("d4").innerHTML = "我不知道，可能有人名字不會打";
